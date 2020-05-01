@@ -12,9 +12,23 @@ article{
 }
 
 #verticalbox{
+    position: relative;
     border: 1px solid #000;
     margin:  0.25em 0em 0.25em 0em;
     height: 300px;
     width: 90%;
+}
+
+#divcenter{
+    position: absolute;
+    border: 1px solid #000;
+    width: 80%;
+    height: 20%;
+    right: 10%;
+    bottom: 70%;
+}
+
+div#divcenter p{
+    text-align: center;
 }
 
