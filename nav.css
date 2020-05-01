@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+ul{
+    font-weight: bold;
+    list-style-type: none;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+li{
+    border: 1px solid #000;
+    display: inline;
+    padding: 0.5em;
+}
+li:hover{
+    color: #FFF !important;
+    background-color: wheat;
+}
+
+li a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+#fill{
+    display: inline-grid;
+    height: 0px;
+}
+
+li#signin{
+    float:right;
+    margin-top: -0.5em;
+}
+
